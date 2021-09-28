@@ -1,0 +1,3 @@
+id	alignmentNum	numColumnsInAlignment	numSequencesInAlignment	alingmentLineId	ungappedResidueLength	pdbId	pdbChain	pdbStartResidue	pdbEndResidue	pdbLength	percentIdentity	minimunLength
+14-3-3	1	300	353	Q75ZE3_TOBAC	238	1o9c	A	8	245	237	100.0	229
+ALAD	208	429	250	HEM2_PSEAE	324	1b4k	A	10	333	323	100.0	324
