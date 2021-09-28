@@ -11,4 +11,4 @@ This package provides an implementation of a pipeline of SCANEER. The SCANEER sc
 + Installations would take few minutes for each python package.
 
 ## Running SCANEER
-You can run SCANEER using the provided multiple sequence alignments in '''input/'''.
+You can run SCANEER using the provided multiple sequence alignments in ```input/```.
