@@ -5,6 +5,7 @@ This package provides an implementation of a pipeline of SCANEER. The SCANEER sc
 + Python (v 2.7.13)
 + Biopython (v 1.72)
 + NumPy (v 1.15.4)
++ Java (v 1.7.0)
 
 ## Installation instruction
 + All python packages can be installed via pip (https://pypi.org/project/pip/).
