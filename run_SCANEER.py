@@ -3,6 +3,8 @@ from SCANEER import msa, coe, iscalc
 
 input_path = "./input/"
 output_path = "./output/"
+if not os.path.isdir(output_path):
+	os.makedirs(output_path)
 
 file_list = glob.glob(os.path.join(input_path, "*.aln"))
 for msa_path in file_list:
@@ -11,7 +13,7 @@ for msa_path in file_list:
 
 	base_pth = os.path.join(output_path, prefix)
 	if not os.path.isdir(base_pth):
-		os.mkdir(base_pth)
+		os.makedirs(base_pth)
 	elif len(os.listdir(base_pth)) == 5:
 		print "already calculated! skip!"
 		continue
