@@ -148,7 +148,7 @@ def calc_SCI(base_pth, subst_list, prefix, msa_dic, CN_dic, w_CN_dic, coenet_dic
 		sci = w_cn*avg_ent_diff*(-1)
 		SCI_list.append([res, AA1, AA2, sci, cn])
 	sorted_SCI_list = sorted(filter(lambda x: ~np.isnan(x[3]), SCI_list), key=lambda x: x[3], reverse=True)
-	fo = open(os.path.join(base_pth, "%s.sci" %prefix), 'w')
+	fo = open(os.path.join(base_pth, "%s.txt" %prefix), 'w')
 	print >> fo, "\t".join(["res", "AA1", "AA2", "SCI", "Number of co-evolutionary relationships"])
 	for line in sorted_SCI_list: print >> fo, "\t".join(map(str, line))
 	fo.close()
